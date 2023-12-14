@@ -7,3 +7,7 @@ body {
 ul li {
     cursor: pointer;
 }
+
+.ativo {
+    text-decoration: line-through
+}

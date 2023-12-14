@@ -9,8 +9,7 @@ $('document').ready(function() {
 
     })
 
-    $('ul li').on("click", function() {
-        $(this).addClass("ativo")
+    $('ul').on('click', 'li', function() {
+        $(this).toggleClass("ativo")
     })
-    
 })
